@@ -27,3 +27,11 @@ __pycache__/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# --- Any text output (keeps requirements.txt) ---
+*.txt
+!requirements.txt
+
+# --- Scratch exploration scripts ---
+check_data*.py
+inspect_data.py
