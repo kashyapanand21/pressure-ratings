@@ -1,0 +1,29 @@
+# --- Competition data: must NOT be published (brief rule) ---
+data/
+
+# --- Derived from the data: ball-level tables, player stats, trained models ---
+work/
+models/
+*.csv
+*.joblib
+
+# --- Run outputs (contain player-level results) ---
+*_output.txt
+reports/
+
+# --- Report files ---
+*.pptx
+*.pdf
+
+# --- Python / environment ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# --- OS clutter ---
+Thumbs.db
+desktop.ini
+.DS_Store
